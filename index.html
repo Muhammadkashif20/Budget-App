@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget App</title>
+    <link rel="shortcut icon" href="image/budget.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="leftBox">
+          <h2>Budget</h2>
+          <input type="number" placeholder="Enter Total Amount" id="leftinp" />
+          <br /><br />
+          <button id="leftbtn">Set Budget</button>
+        </div>
+        <div class="rightBox">
+          <h2>Expenses</h2>
+          <input
+            type="text"
+            placeholder="Enter Title Of Product"
+            id="rigthinp1"
+          />
+          <br /><br />
+          <input
+            type="number"
+            placeholder="Enter Cost Of Product"
+            id="rigthinp2"
+          />
+          <br /><br />
+          <button id="rightbtn">Check Amount</button>
+        </div>
+      </header>
+      <center>
+        <div class="center">
+          <div id="cntrLeft">
+            <h3>Total Budget</h3>
+            <p id="para"></p>
+          </div>
+          <div id="cntrMiddle">
+            <h3>Epenses</h3>
+            <p id="para1"></p>
+          </div>
+          <div id="cntrRight">
+            <h3>Balance</h3>
+            <p id="para2"></p>
+          </div>
+        </div>
+      </center>
+      <center>
+        <footer>
+          <div class="footer">
+            <h3>Expense List</h3>
+            <div class="list">
+              <h4>Milk</h4>
+              <h4>300</h4>
+              <h4>delte</h4>
+            </div>
+          </div>
+        </footer>
+      </center>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
