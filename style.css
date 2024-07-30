@@ -68,4 +68,26 @@ footer {
   margin-top: 2rem;
   height: 10vh;
   padding-left: 2rem;
+  text-align: left;
 }
+.list{
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 43.7rem;
+  height: 10vh;
+  border-left:5px solid #5a7ef1;
+  margin-left: -2rem;
+  margin-top: -.2rem;
+  margin-bottom: .5rem;
+}
+h4{
+    display: inline;
+}
+#del-Btn{
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  cursor: pointer;
+}
+
